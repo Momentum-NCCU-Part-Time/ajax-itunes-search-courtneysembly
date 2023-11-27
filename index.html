@@ -7,34 +7,12 @@
     <title>Music Search</title>
   </head>
   <body>
-    <nav>
-      <h1>Courtney's iTunes Music Search</h1>
-    </nav>
-
-    <figure>
-      <audio src="" id="Url" controls>
-        <source />
-      </audio>
-
-      <figcaption id="songName">Now playing:</figcaption>
-    </figure>
-
-    <h2>Search Music</h2>
-    <form action="" id="inputForm">
-      <input
-        type="text"
-        placeholder="Search"
-        name="inputField"
-        id="inputField"
-      />
-      <button type="submit" id="inputButton">Search</button>
-    </form>
-    <br />
-    <h3>Results Here</h3>
-    <h3 id="results"></h3>
-    <div id="container"></div>
-    <div class="audioplay">
-      <audio src="" id="audioplay"autoplay></audio>
-    </div>
+    <h1>Courtney's iTunes Music Search</h1>
+  <div class="audioGroup" id="topAudio"></div>
+  <form action="" id="userInput">
+    <input id="inputField" type="text" />
+    <button id="submit" type="button"> Music Search </button>
+  </form>
+  <div class="searchResults" id="result">Results:</div>
   </body>
 </html>

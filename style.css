@@ -1,15 +1,15 @@
-*
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-img {
-    size: 50%;
-    border-radius: 5%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding-bottom: 5px;
+    font-family: sans-serif;
   }
+  .searchResults {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  //* songs aren't aligned with play button in results?? and autoplay??? *//
+  
